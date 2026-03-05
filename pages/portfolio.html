@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Portfolio of Enhance_by_V — browse bridal, party, hair, and editorial looks."/>
+  <title>Portfolio — Enhance_by_V</title>
+  <link rel="stylesheet" href="../css/global.css"/>
+  <link rel="stylesheet" href="../css/portfolio.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="../index.html" class="logo">Enhance<span>_by_V</span></a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html" class="active">Portfolio</a></li>
+      <li><a href="booking.html" class="nav-cta">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <div>
+      <span class="section-label">✦ Our Work</span>
+      <h1 class="section-title">Gallery of <em>Transformations</em></h1>
+      <p>Every look tells a story. Browse our portfolio of real clients and styled shoots.</p>
+    </div>
+  </div>
+
+  <!-- FILTER TABS -->
+  <section id="portfolio-section">
+    <div class="container">
+
+      <div class="filter-bar reveal">
+        <button class="filter-btn active" data-filter="all">All Work</button>
+        <button class="filter-btn" data-filter="bridal">Bridal</button>
+        <button class="filter-btn" data-filter="party">Party</button>
+        <button class="filter-btn" data-filter="editorial">Editorial</button>
+        <button class="filter-btn" data-filter="hair">Hair</button>
+        <button class="filter-btn" data-filter="nails">Nails</button>
+      </div>
+
+      <!-- PORTFOLIO GRID -->
+      <!-- 
+        HOW TO ADD YOUR PHOTOS:
+        1. Put your photos in /images/portfolio/
+        2. Replace each <div class="portfolio-placeholder"> with:
+           <img src="../images/portfolio/filename.jpg" alt="Description" loading="lazy"/>
+        3. Keep the data-category attribute for filtering to work
+      -->
+      <div class="portfolio-grid" id="portfolioGrid">
+
+        <div class="portfolio-item" data-category="bridal">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#E8C5B0,#C4876A);">
+            <span>✨ Bridal Look 1</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Riya's Bridal</div>
+              <div class="portfolio-tag">Bridal · Airbrush</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="hair">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#C9A96E,#8B5E3C);">
+            <span>💇‍♀️ Updo</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Bridal Updo</div>
+              <div class="portfolio-tag">Hair · Styling</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="editorial">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#2A1A12,#3D2B20);">
+            <span>📸 Editorial</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Fashion Editorial</div>
+              <div class="portfolio-tag">Editorial · Fashion</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="party">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#C4876A,#E8C5B0);">
+            <span>💄 Party Glam</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">New Year Glam</div>
+              <div class="portfolio-tag">Party · Glam</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="nails">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#8B6F5E,#C4876A);">
+            <span>💅 Nail Art</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Floral Nail Art</div>
+              <div class="portfolio-tag">Nails · Art</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="bridal">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#3D2B20,#C4876A);">
+            <span>✨ Bridal Look 2</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Sana's Bridal</div>
+              <div class="portfolio-tag">Bridal · HD</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="party">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#C9A96E,#C4876A);">
+            <span>💄 Sangeet</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Sangeet Night</div>
+              <div class="portfolio-tag">Party · Festive</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="editorial">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#E8C5B0,#8B6F5E);">
+            <span>📸 Campaign</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Brand Campaign</div>
+              <div class="portfolio-tag">Commercial · HD</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-category="hair">
+          <div class="portfolio-placeholder" style="background:linear-gradient(135deg,#2A1A12,#C9A96E);">
+            <span>💇‍♀️ Waves</span><small>Add image</small>
+          </div>
+          <div class="portfolio-overlay">
+            <div class="portfolio-info">
+              <div class="portfolio-title">Beachy Waves</div>
+              <div class="portfolio-tag">Hair · Casual</div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- end portfolio-grid -->
+
+    </div>
+  </section>
+
+  <!-- INSTAGRAM CTA -->
+  <section id="insta-cta">
+    <div class="container insta-inner reveal">
+      <span class="section-label">✦ Follow Our Journey</span>
+      <h2 class="section-title">See More on <em>Instagram</em></h2>
+      <p class="section-desc" style="margin: 0 auto 2rem;">New looks posted daily. Follow @enhance_by_v for behind-the-scenes, tutorials, and inspiration.</p>
+      <a href="https://instagram.com/YOUR_HANDLE" target="_blank" class="btn-primary">Follow @enhance_by_v</a>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">Enhance<span>_by_V</span></a>
+        <p class="footer-tagline">Luxury makeup artistry for every occasion.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">ig</a>
+          <a href="#" class="social-link">fb</a>
+          <a href="#" class="social-link">wa</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="services.html#bridal">Bridal Makeup</a></li>
+          <li><a href="services.html#party">Party & Events</a></li>
+          <li><a href="services.html#hair">Hair Styling</a></li>
+          <li><a href="services.html#nails">Nail Art</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Studio</div>
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Contact</div>
+        <ul class="footer-links">
+          <li>📍 Your Studio Address</li>
+          <li>📞 +91 98765 43210</li>
+          <li>📩 hello@enhanceby-v.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Enhance_by_V. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/portfolio.js"></script>
+</body>
+</html>

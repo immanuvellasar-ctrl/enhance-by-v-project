@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Book a makeup session with Enhance_by_V — Bridal, Party, Hair, Nail Art and more."/>
+  <title>Book a Session — Enhance_by_V</title>
+  <link rel="stylesheet" href="../css/global.css"/>
+  <link rel="stylesheet" href="../css/booking.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <nav id="navbar">
+    <a href="../index.html" class="logo">Enhance<span>_by_V</span></a>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="booking.html" class="nav-cta active">Book Now</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-hero">
+    <div>
+      <span class="section-label">✦ Reserve Your Slot</span>
+      <h1 class="section-title">Book Your <em>Session</em></h1>
+      <p>Fill in the form below and we'll confirm your appointment within 24 hours.</p>
+    </div>
+  </div>
+
+  <section id="booking-section">
+    <div class="booking-layout">
+
+      <!-- CONTACT INFO -->
+      <div class="booking-info reveal">
+        <span class="section-label">✦ Get In Touch</span>
+        <h2 class="section-title" style="font-size: 2rem;">Studio <em>Details</em></h2>
+        <div class="divider"></div>
+        <p class="section-desc" style="margin-bottom: 2.5rem;">We'd love to hear from you. Reach out via the form, call us, or send a WhatsApp message for a faster response.</p>
+
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <div class="ci-label">Studio Location</div>
+              <div class="ci-val">123 Beauty Lane, Your City, State 000 000</div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <div class="ci-label">Phone & WhatsApp</div>
+              <div class="ci-val"><a href="tel:+919876543210">+91 98765 43210</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">📩</div>
+            <div>
+              <div class="ci-label">Email</div>
+              <div class="ci-val"><a href="mailto:hello@enhanceby-v.com">hello@enhanceby-v.com</a></div>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <div class="ci-label">Working Hours</div>
+              <div class="ci-val">Monday – Saturday: 9:00 AM – 7:00 PM<br/>Sunday: By appointment only</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- WhatsApp Button -->
+        <a href="https://wa.me/919876543210?text=Hi%2C+I'd+like+to+book+a+session+at+Enhance_by_V" 
+           target="_blank" class="whatsapp-btn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+            <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.554 4.118 1.524 5.845L0 24l6.324-1.498A11.955 11.955 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.013-1.375l-.36-.213-3.724.881.916-3.617-.234-.372A9.784 9.784 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z"/>
+          </svg>
+          Chat on WhatsApp
+        </a>
+      </div>
+
+      <!-- BOOKING FORM -->
+      <div class="booking-form-wrap reveal">
+        <!-- 
+          FORMSPREE SETUP (FREE):
+          1. Go to formspree.io and sign up (free)
+          2. Create a new form — get your unique endpoint URL
+          3. Replace action="https://formspree.io/f/YOUR_FORM_ID" below
+          4. Submissions will arrive in your email inbox!
+        -->
+        <form 
+          id="bookingForm"
+          action="https://formspree.io/f/YOUR_FORM_ID"
+          method="POST"
+          novalidate
+        >
+          <div class="form-section-label">Personal Details</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="name">Full Name *</label>
+              <input class="form-input" type="text" id="name" name="name" placeholder="Your full name" required/>
+              <span class="form-error" id="nameErr">Please enter your name.</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="phone">Phone / WhatsApp *</label>
+              <input class="form-input" type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required/>
+              <span class="form-error" id="phoneErr">Please enter a valid phone number.</span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="email">Email Address *</label>
+            <input class="form-input" type="email" id="email" name="email" placeholder="you@example.com" required/>
+            <span class="form-error" id="emailErr">Please enter a valid email.</span>
+          </div>
+
+          <div class="form-section-label" style="margin-top: 2rem;">Appointment Details</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="service">Service Required *</label>
+              <select class="form-input form-select" id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="Bridal Makeup">✨ Bridal Makeup</option>
+                <option value="Party & Event Glam">💄 Party & Event Glam</option>
+                <option value="Editorial Shoot">📸 Editorial / Shoot</option>
+                <option value="Hair Styling">💇‍♀️ Hair Styling</option>
+                <option value="Nail Art">💅 Nail Art</option>
+                <option value="Skincare & Glow">🌿 Skincare & Glow</option>
+                <option value="Multiple Services">🌟 Multiple Services</option>
+              </select>
+              <span class="form-error" id="serviceErr">Please select a service.</span>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="date">Preferred Date *</label>
+              <input class="form-input" type="date" id="date" name="date" required/>
+              <span class="form-error" id="dateErr">Please select a date.</span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="time">Preferred Time</label>
+              <select class="form-input form-select" id="time" name="time">
+                <option value="">Any time</option>
+                <option>9:00 AM – 11:00 AM</option>
+                <option>11:00 AM – 1:00 PM</option>
+                <option>1:00 PM – 3:00 PM</option>
+                <option>3:00 PM – 5:00 PM</option>
+                <option>5:00 PM – 7:00 PM</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="event">Event Type</label>
+              <select class="form-input form-select" id="event" name="event">
+                <option value="">Select event</option>
+                <option>Wedding</option>
+                <option>Engagement</option>
+                <option>Birthday Party</option>
+                <option>Sangeet / Function</option>
+                <option>Photo / Video Shoot</option>
+                <option>Casual / Everyday</option>
+                <option>Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="message">Tell Us About Your Vision</label>
+            <textarea class="form-input form-textarea" id="message" name="message" 
+              placeholder="Describe your desired look, inspiration, references, or any special requirements..."></textarea>
+          </div>
+
+          <!-- Hidden: auto-set from URL param -->
+          <input type="hidden" name="_subject" value="New Booking Request — Enhance_by_V"/>
+          <input type="hidden" name="_next" value="booking.html?success=1"/>
+
+          <div id="formSuccess" class="form-success" style="display:none;">
+            <span>✨</span>
+            <strong>Booking Request Sent!</strong>
+            <p>Thank you! We'll get back to you within 24 hours to confirm your appointment.</p>
+          </div>
+
+          <button type="submit" class="form-submit" id="submitBtn">
+            Send Booking Request ✦
+          </button>
+
+          <p class="form-note">* We'll confirm your booking via WhatsApp or email within 24 hours. No payment required upfront.</p>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- POLICIES -->
+  <section id="policies">
+    <div class="container">
+      <div class="policies-grid reveal">
+        <div class="policy-card">
+          <div class="policy-icon">📋</div>
+          <h3>Booking Policy</h3>
+          <p>Sessions are confirmed only after we reach out. We'll contact you within 24 hours of your request.</p>
+        </div>
+        <div class="policy-card">
+          <div class="policy-icon">💳</div>
+          <h3>Payment</h3>
+          <p>A 30% advance secures your booking. Balance is due on the day. We accept UPI, cash, and bank transfer.</p>
+        </div>
+        <div class="policy-card">
+          <div class="policy-icon">🔄</div>
+          <h3>Cancellations</h3>
+          <p>Cancellations 48hrs+ before: full refund. Within 48hrs: advance is non-refundable. Rescheduling is always welcome.</p>
+        </div>
+        <div class="policy-card">
+          <div class="policy-icon">📍</div>
+          <h3>On-Location</h3>
+          <p>We offer on-location services for bridal & events. Travel charges apply based on distance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="../index.html" class="logo">Enhance<span>_by_V</span></a>
+        <p class="footer-tagline">Luxury makeup artistry for every occasion.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">ig</a>
+          <a href="#" class="social-link">fb</a>
+          <a href="#" class="social-link">wa</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Services</div>
+        <ul class="footer-links">
+          <li><a href="services.html#bridal">Bridal Makeup</a></li>
+          <li><a href="services.html#party">Party & Events</a></li>
+          <li><a href="services.html#hair">Hair Styling</a></li>
+          <li><a href="services.html#nails">Nail Art</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Studio</div>
+        <ul class="footer-links">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="booking.html">Book Now</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <div class="footer-heading">Contact</div>
+        <ul class="footer-links">
+          <li>📍 Your Studio Address</li>
+          <li>📞 +91 98765 43210</li>
+          <li>📩 hello@enhanceby-v.com</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copy">© 2024 Enhance_by_V. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="../js/main.js"></script>
+  <script src="../js/booking.js"></script>
+</body>
+</html>
