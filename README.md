@@ -86,11 +86,11 @@ Search and replace these placeholders across all files:
 |---|---|
 | `Your Studio Address` | Your actual address |
 | `+91 88076 99389` | Your phone number |
-| `hello@enhanceby-v.com` | Your email |
+| `enhancebyv@gmail.com` | Your email |
 | `YOUR_HANDLE` | Your Instagram handle |
 | `YOUR_PAGE` | Your Facebook page URL |
 | `YOUR_CHANNEL` | Your YouTube channel |
-| `919876543210` | Your phone in WhatsApp format (no +) |
+| `918807699389` | Your phone in WhatsApp format (no +) |
 
 ---
 
@@ -182,7 +182,7 @@ Type: A  →  185.199.111.153
 ### WhatsApp Chat Button (floating)
 Add before `</body>` in every HTML file:
 ```html
-<a href="https://wa.me/919876543210" target="_blank" 
+<a href="https://wa.me/918807699389" target="_blank" 
    style="position:fixed;bottom:2rem;right:2rem;z-index:999;
           background:#25D366;color:white;width:56px;height:56px;
           border-radius:50%;display:flex;align-items:center;
