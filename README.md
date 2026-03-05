@@ -85,7 +85,7 @@ Search and replace these placeholders across all files:
 | Placeholder | Replace with |
 |---|---|
 | `Your Studio Address` | Your actual address |
-| `+91 98765 43210` | Your phone number |
+| `+91 88076 99389` | Your phone number |
 | `hello@enhanceby-v.com` | Your email |
 | `YOUR_HANDLE` | Your Instagram handle |
 | `YOUR_PAGE` | Your Facebook page URL |
